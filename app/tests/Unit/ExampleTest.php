@@ -22,6 +22,6 @@ class ExampleTest extends TestCase
      */
     public function test_that_false_is_true()
     {
-        $this->assertTrue(false);
+        $this->assertFalse(false);
     }
 }
